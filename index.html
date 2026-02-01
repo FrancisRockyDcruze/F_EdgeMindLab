@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F - Edge MindLab | Tutorials</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: Custom Tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#4f46e5',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-primary">F - Edge MindLab</h1>
+    <a href="#" class="text-sm font-semibold text-primary hover:underline">
+      Login
+    </a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-indigo-600 to-indigo-500 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-24 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+      Learn Skills That Matter
+    </h2>
+    <p class="max-w-2xl mx-auto mb-8 text-lg text-indigo-100">
+      High-quality tutorials for coding, design, and more — learn at your own pace.
+    </p>
+    <a href="#courses"
+       class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold">
+      Start Learning
+    </a>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="max-w-7xl mx-auto px-6 py-20">
+  <h3 class="text-3xl font-bold text-center mb-12">Popular Tutorials</h3>
+
+  <div class="grid gap-8 md:grid-cols-3">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+      <h4 class="text-xl font-semibold mb-2">Web Development</h4>
+      <p class="text-gray-600">
+        Learn HTML, CSS, Tailwind, and JavaScript from scratch.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+      <h4 class="text-xl font-semibold mb-2">Python Programming</h4>
+      <p class="text-gray-600">
+        Beginner-friendly Python tutorials with projects.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+      <h4 class="text-xl font-semibold mb-2">UI / UX Design</h4>
+      <p class="text-gray-600">
+        Design modern, user-friendly interfaces.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400">
+  <div class="max-w-7xl mx-auto px-6 py-8 text-center">
+    © 2026 F - Edge MindLab. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
